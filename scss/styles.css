@@ -1,0 +1,149 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+header {
+  margin-bottom: 42px;
+  padding-left: 102px;
+}
+
+.headDiv h4 {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 11px;
+  color: black;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 35px;
+}
+.headDiv img {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 25px;
+}
+
+.sec1 {
+  margin-top: 32px;
+  margin-left: 102px;
+  margin-bottom: 36px;
+  width: 100%;
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
+}
+.sec1 h4 {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 11px;
+  color: black;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 35px;
+  font-size: 24px;
+  margin-bottom: 23px;
+}
+.sec1 .card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 200px;
+}
+.sec1 .cards {
+  margin-left: 0;
+  height: 350px;
+  width: 362px;
+  background-color: white;
+  margin-left: 40px;
+}
+.sec1 .cards .img {
+  background-image: url(../images/Group\ 1.png);
+  height: 186px;
+  width: 100%;
+  color: white;
+  padding-top: 32px;
+  padding-left: 41px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+.sec1 .cards p {
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 20px;
+  color: #8A8787;
+}
+.sec1 .cards > p {
+  width: 238px;
+  margin-top: 68px;
+  margin-left: 37px;
+}
+.sec1 .cards .cardfooter {
+  margin-top: 11px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sec1 .bigImg {
+  width: 758px;
+  vertical-align: top;
+  flex-direction: column;
+  gap: 40px;
+}
+.sec1 .smallImg {
+  width: 362px;
+  vertical-align: top;
+  flex-direction: column;
+  gap: 98px;
+}/*# sourceMappingURL=styles.css.map */

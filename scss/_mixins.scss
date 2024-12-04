@@ -1,0 +1,43 @@
+@mixin container {
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+@mixin flexContainer($justify: center, $items: center){
+  display: flex;
+  justify-content: $justify;
+  align-items: $items;
+}
+
+@mixin head {
+  margin-bottom: 42px;
+ 
+}
+
+@mixin htext($Mtext-color: black){
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 11px;
+  color: $Mtext-color;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 35px;
+}
+
+@mixin sec{
+  margin-top: 32px;
+  margin-left: 102px;
+  margin-bottom: 36px;
+  width: 100%;
+}
+
+@mixin bigIMG {
+  width: 758px;
+  vertical-align: top;
+}
+
+@mixin smallIMG {
+  width: 362px;
+  vertical-align: top;
+}
