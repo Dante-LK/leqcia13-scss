@@ -54,7 +54,12 @@ table {
 
 header {
   margin-bottom: 42px;
-  padding-left: 102px;
+}
+
+.container {
+  max-width: 14 0px;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .headDiv h4 {
@@ -73,11 +78,7 @@ header {
 }
 
 .sec1 {
-  margin-top: 32px;
-  margin-left: 102px;
-  margin-bottom: 36px;
-  width: 100%;
-  max-width: 1200px;
+  max-width: 14 0px;
   width: 90%;
   margin: 0 auto;
 }
@@ -94,9 +95,8 @@ header {
 }
 .sec1 .card {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  margin-right: 200px;
 }
 .sec1 .cards {
   margin-left: 0;
@@ -135,15 +135,24 @@ header {
   justify-content: center;
   align-items: center;
 }
-.sec1 .bigImg {
+.sec1 .imageDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.sec1 .imageDiv .bigImg {
   width: 758px;
   vertical-align: top;
   flex-direction: column;
-  gap: 40px;
 }
-.sec1 .smallImg {
+.sec1 .imageDiv .bigImg img {
+  margin-bottom: 40px;
+}
+.sec1 .imageDiv .smallImg {
   width: 362px;
   vertical-align: top;
   flex-direction: column;
-  gap: 98px;
+}
+.sec1 .imageDiv .smallImg img {
+  margin-bottom: 98px;
 }/*# sourceMappingURL=styles.css.map */
